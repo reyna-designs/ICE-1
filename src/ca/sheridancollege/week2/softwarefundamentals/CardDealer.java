@@ -17,9 +17,12 @@ public class CardDealer
         Card nineClubs = new Card("Clubs", 9);
         nineClubs.setSuit("Diamonds");
         
-        Card fourSpades = new Card("Spades", 4);
+        Card fourSpades = new Card("Spades", 4); // Step 3: Create an object of Card class in CardDealer.java file 
         fourSpades.setSuit("Hearts");
         
-        System.out.println(fourSpades);
+        Card sevenHearts = new Card("Hearts", 7); // Step 6: Safely fetch+merge the code into your NetBeans project. Now create one more object of Card .
+        sevenHearts.setSuit("Spades");
+        
+        System.out.println(fourSpades); // Step 5: Edit your code from GitHub to print the card suit and value which you have just created in CardDealer.java file . 
     }
 }

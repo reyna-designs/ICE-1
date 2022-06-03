@@ -10,6 +10,11 @@ package ca.sheridancollege.week2.softwarefundamentals;
  * Created in Week 2 for the cloning repository demo
  * @author dancye, 2019
  */
+
+/* Step 1: Clone the project from github.com from above mentioned URL 
+and  add  comments  and then first commit/push the changes to YOUR GIT HUB REPOSITORY.
+Comments for ICE 1*/
+
 public class Card 
 {
     private String suit;// hearts, diamonds, spades and clubs
