@@ -20,6 +20,6 @@ public class CardDealer
         Card fourSpades = new Card("Spades", 4);
         fourSpades.setSuit("Hearts");
         
-        System.out.println(fourSpades.setSuit("Hearts"));
+        System.out.println(fourSpades);
     }
 }
