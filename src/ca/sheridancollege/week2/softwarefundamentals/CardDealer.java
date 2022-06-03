@@ -11,9 +11,13 @@ package ca.sheridancollege.week2.softwarefundamentals;
  */
 public class CardDealer 
 {
+    private String CzarinaSotelo; // Student no.: 991624256
     public static void main(String[] args)
     {
-        Card nineClubs = new Card("Clbs", 9);
-        nineClubs.setSuit("diamonds");
+        Card nineClubs = new Card("Clubs", 9);
+        nineClubs.setSuit("Diamonds");
+        
+        Card fourSpades = new Card("Spades", 4);
+        fourSpades.setSuit("Hearts");
     }
 }
